@@ -1,0 +1,21 @@
+project-root/
+│
+├── mobile-app/               # KMP Mobile App (Android + iOS)
+│   ├── shared/               # Shared Kotlin code (models, networking, DB, etc.)
+│   ├── androidApp/           # Android-specific
+│   └── iosApp/               # iOS-specific
+│
+├── admin-panel/              # Flutter Web project
+│
+├── backend/                  # Kotlin backend (Ktor/Spring Boot)
+│   ├── src/
+│   │   ├── modules/          # auth, bookings, chat, etc.
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── db/
+│   └── application.conf
+│
+└── infra/
+    ├── docker/
+    ├── postgres/
+    └── nginx/
